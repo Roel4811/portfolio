@@ -1,5 +1,3 @@
-# portfolio
-
 ## Build Setup
 
 ```bash
