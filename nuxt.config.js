@@ -18,7 +18,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap'
+          'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap'
       }
     ]
   },
