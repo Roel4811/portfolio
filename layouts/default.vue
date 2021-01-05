@@ -15,8 +15,10 @@
       </v-toolbar-items>
     </v-app-bar> -->
     <v-main class="main-content">
-      <v-container>
-        <nuxt />
+      <v-container fill-height>
+        <v-row align="center" justify="center">
+          <nuxt />
+        </v-row>
       </v-container>
     </v-main>
     <!-- <v-footer app>
@@ -29,23 +31,23 @@
 export default {
   data() {
     return {}
-  },
+  }
 }
 </script>
 
 <style lang="scss">
 p {
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
 }
 .main-content {
-  background: #6c6114;
+  background: url('~assets/images/background.jpg');
+  background-size: 100% 100%;
 }
 .home-link {
   text-decoration: none;
   color: black;
   &:link,
-  &:activem
-  &:visited,
+  &:activem &:visited,
   &:hover {
     text-decoration: none;
     color: black;
