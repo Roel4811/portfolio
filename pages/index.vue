@@ -102,6 +102,7 @@ p {
   img {
     border-radius: 50%;
     max-width: 100px;
+    border: 1px solid #a0a89f;
   }
 }
 .card-text {
