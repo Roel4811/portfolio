@@ -6,12 +6,12 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - portfolio',
-    title: 'portfolio',
+    titleTemplate: '%s - Roel de Jong',
+    title: 'Roel de Jong',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'roeldejong card' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -36,20 +36,23 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    ['nuxt-fontawesome', {
-      component: 'fa', //customize component name
-      imports: [{
-          set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faLightbulb']
+    [
+      'nuxt-fontawesome',
+      {
+        component: 'fa', //customize component name
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['faLightbulb']
           },
-          {set: '@fortawesome/free-brands-svg-icons',
-          icons: ['faGithub', 'faLinkedin']
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['faGithub', 'faLinkedin']
           },
-          {set: '@fortawesome/free-regular-svg-icons',
-          icons: ['faLightbulb']
-          }
-      ]
-   }]
+          { set: '@fortawesome/free-regular-svg-icons', icons: ['faLightbulb'] }
+        ]
+      }
+    ]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -73,15 +76,6 @@ export default {
       }
     }
   },
-
-  // fontawesome: {
-  //   icons: {
-  //     // solid: ['Github'],
-  //     regular: ['Github'],
-  //     // light: ['Github'],
-  //     // brands: ['Github']
-  //   }
-  // },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {}
