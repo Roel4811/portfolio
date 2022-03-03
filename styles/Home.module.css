@@ -1,0 +1,115 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 20px 25px;
+  background-color: #ffd438;
+}
+
+.socialLinks {
+  margin-left: auto;
+  display: flex;
+}
+
+.imageWrapper + .imageWrapper {
+  margin-left: 15px;
+}
+
+.logo {
+  width: auto;
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+  background-color: #ffd438;
+  padding: 5rem 0;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  margin-bottom: 3rem;
+}
+
+.title h1 {
+  color: #ff6a00;
+  margin: 0;
+  font-weight: 600;
+}
+
+.title span {
+  font-weight: 300;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  /* margin-right: 50px; */
+}
+
+.description {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.clients h2 {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.cardGrid {
+  display: flex;
+}
+
+.card {
+  width: 120px;
+  height: 160px;
+  background-color: grey;
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+}
