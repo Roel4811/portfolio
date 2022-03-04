@@ -92,13 +92,158 @@ const Home: NextPage = () => {
             </div>
           </section>
           <section className={styles.clients}>
-            <h2>Companies I've worked with</h2>
+            <h2>Companies I&apos;ve worked with</h2>
             <div className={styles.cardGrid}>
-              <div className={styles.card}></div>
-              <div className={styles.card}></div>
-              <div className={styles.card}></div>
-              <div className={styles.card}></div>
-              <div className={styles.card}></div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/rodeo-logo.png'}
+                    width={'300px'}
+                    height={'157px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/restaurantkaart-logo.png'}
+                    width={'300px'}
+                    height={'300px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/le-wagon-logo.png'}
+                    width={'240px'}
+                    height={'153px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/pentest-gids-logo.svg'}
+                    width={'300px'}
+                    height={'343px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/pixie-lab-logo.png'}
+                    width={'300px'}
+                    height={'295px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/vta-assurances-logo.png'}
+                    width={'300px'}
+                    height={'300px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/de-snijtafel-logo.png'}
+                    width={'240px'}
+                    height={'240px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={styles.card}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/softwareguru-logo.png'}
+                    width={'300px'}
+                    height={'64px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={`${styles.card} ${styles.lastCard}`}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/rodeo-logo.png'}
+                    width={'300px'}
+                    height={'100px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
+              <div className={`${styles.card} ${styles.lastCard}`}>
+                <div className={styles.cardImage}>
+                  <Image
+                    src={'/images/rodeo-logo.png'}
+                    width={'300px'}
+                    height={'100px'}
+                    alt={'partner-logo'}
+                  />
+                </div>
+                <p className={styles.cardText}>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dignissimos eligendi nisi blanditiis animi distinctio
+                  quibusdam deleniti, aliquam temporibus iste enim?
+                </p>
+              </div>
             </div>
           </section>
         </main>
@@ -109,7 +254,7 @@ const Home: NextPage = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Made with love by roeldj
+            Made by roeldj
           </a>
         </footer>
       </div>
