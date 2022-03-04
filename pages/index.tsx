@@ -104,9 +104,11 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  Rodeo is a fast growing SaaS, offering a Project Management
+                  Tool for small and medium businesses in the Create Industry. I
+                  helped migrating the legacy system to a stable and
+                  feature-rich application. Tools used were Typescript,
+                  React.js, Hasura, PostgreSQL and GeaphQL
                 </p>
               </div>
               <div className={styles.card}>
@@ -119,9 +121,12 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  RestaurantKaart was a fast growing membership for restaurant
+                  lovers. I extended the platform with an automated reservation
+                  system, talking with a mobile application and I created an
+                  extensive backend system for memberships, payments,
+                  localisation and restaurant holders. This was all done with
+                  Ruby on Rails.
                 </p>
               </div>
               <div className={styles.card}>
@@ -134,9 +139,10 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  Teaching for Le Wagon has been a passion since 2017. I&apos;ve
+                  helped over 1000 students in their journey of becoming a
+                  Software Engineer, lecturing on Object Oriented Programming,
+                  and building MVPs.
                 </p>
               </div>
               <div className={styles.card}>
@@ -149,9 +155,10 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  For PentestGids.nl I created the full website using the
+                  JAM-stack architecture. An SEO optimized Next.js app in React
+                  together with content hosted on an external CMS to give full
+                  flexibility to the Customer on releasing content.
                 </p>
               </div>
               <div className={styles.card}>
@@ -164,9 +171,8 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  For Pixie Lab I supported on building an MVP with a Ruby on
+                  Rails Application.
                 </p>
               </div>
               <div className={styles.card}>
@@ -179,9 +185,10 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  VTA Assurances is a French MMA insurance company for which I
+                  created a new website using the JAM-stack architecture. As the
+                  company is growing to different markets, SEO and multiple
+                  languages are supported together with an easy Blogging system.
                 </p>
               </div>
               <div className={styles.card}>
@@ -194,9 +201,9 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  De Snijtafel is a project by Kasper C. Jansen. For his new
+                  website I collaborated with Hedzer Zijlsra to make a Nuxt app
+                  (Vue.js) for a fast SEO optimized blog + brand website.
                 </p>
               </div>
               <div className={styles.card}>
@@ -209,9 +216,9 @@ const Home: NextPage = () => {
                   />
                 </div>
                 <p className={styles.cardText}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Dignissimos eligendi nisi blanditiis animi distinctio
-                  quibusdam deleniti, aliquam temporibus iste enim?
+                  SoftwareGuru is a comparison application with specific needs
+                  on the admin. For a custom-made stable yet feature-rich admin
+                  I used Ruby on Rails.
                 </p>
               </div>
               <div className={`${styles.card} ${styles.lastCard}`}>
