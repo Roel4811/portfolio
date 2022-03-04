@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/rodeo-logo.png'}
-                    width={'300px'}
+                    width={'240px'}
                     height={'157px'}
                     alt={'partner-logo'}
                   />
@@ -115,8 +115,8 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/restaurantkaart-logo.png'}
-                    width={'300px'}
-                    height={'300px'}
+                    width={'240px'}
+                    height={'240px'}
                     alt={'partner-logo'}
                   />
                 </div>
@@ -149,7 +149,7 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/pentest-gids-logo.svg'}
-                    width={'300px'}
+                    width={'240px'}
                     height={'343px'}
                     alt={'partner-logo'}
                   />
@@ -165,8 +165,8 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/pixie-lab-logo.png'}
-                    width={'300px'}
-                    height={'295px'}
+                    width={'240px'}
+                    height={'236px'}
                     alt={'partner-logo'}
                   />
                 </div>
@@ -179,8 +179,8 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/vta-assurances-logo.png'}
-                    width={'300px'}
-                    height={'300px'}
+                    width={'240px'}
+                    height={'240px'}
                     alt={'partner-logo'}
                   />
                 </div>
@@ -210,7 +210,7 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/softwareguru-logo.png'}
-                    width={'300px'}
+                    width={'240px'}
                     height={'64px'}
                     alt={'partner-logo'}
                   />
@@ -225,7 +225,7 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/rodeo-logo.png'}
-                    width={'300px'}
+                    width={'240px'}
                     height={'100px'}
                     alt={'partner-logo'}
                   />
@@ -240,7 +240,7 @@ const Home: NextPage = () => {
                 <div className={styles.cardImage}>
                   <Image
                     src={'/images/rodeo-logo.png'}
-                    width={'300px'}
+                    width={'240px'}
                     height={'100px'}
                     alt={'partner-logo'}
                   />

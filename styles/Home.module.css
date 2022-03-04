@@ -90,12 +90,14 @@
   display: grid;
   grid-template-columns: repeat(3, 300px);
   grid-gap: 25px;
+  row-gap: 75px;
   justify-content: center;
 }
 
 .card {
-  width: 240px;
-  height: 320px;
+  width: 250px;
+  height: fit-content;
+  padding: 5px;
   background-color: grey;
   margin: 10px;
   border: 1px solid blue;
